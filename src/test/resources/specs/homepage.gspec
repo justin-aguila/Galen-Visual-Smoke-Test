@@ -1,0 +1,58 @@
+
+@objects
+  header               css     header.l-header.clearfix
+  hero-header          css     div.text-overlay
+  gj-logo              css     .logo-wrapper.en-ca
+  gj-menu              css     section.block.block-system.block-menu.block-system-main-menu.header
+  zip-cta              css     div.cta.obe
+  video                css     div.embedded-video.cta
+  footer               css     footer.l-footer 
+  
+
+= Home Page =
+  
+   @on desktop
+       
+       
+       header:
+           inside screen 0px top
+           inside screen 0px left
+           inside screen 0px right
+           
+           
+       hero-header:
+       
+       		text is "GOODBYE JUNK. HELLO RELIEF."
+      		
+          
+       gj-logo:
+  
+        
+           image file gj-logo.PNG, error 52%
+           
+       gj-menu:
+  
+        
+           image file gj-menu.PNG, error 46%
+           
+       zip-cta:
+  
+        
+           image file zip-cta.PNG, error 67%
+           
+       video:
+           
+           text contains "ALL YOU HAVE TO DO IS POINT"
+       
+       footer:
+       
+        inside screen 1px bottom
+        inside screen 0px left
+        inside screen 0px right
+           
+  
+       	   
+       	   
+
+
+  
